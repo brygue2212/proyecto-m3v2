@@ -358,8 +358,12 @@ textarea{
 
 @media screen and (max-width: 720px) and (min-width: 500px){  
     .body{
-        width: 100vw;
+        width: 100%;
         height: 100vh;
+    }
+    .imag1{
+        width: 100px;
+        height: 100px;
     }
     .title-meta{
         flex-direction: column;
@@ -368,16 +372,22 @@ textarea{
 
     }
     .imag2{
-        left: 10%;
+        left: 30%;
+        width: 100px;
+        height: 100px;
+        
     }
-
+    .banner{
+        width: 100%;
+    }
     .video-meta {
         width: 100%;
-        height: auto;
+        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin-bottom: 200px;
+        font-size: 10px;
     }
     .zuckerberg {
         width: 100%;
@@ -391,7 +401,13 @@ textarea{
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 250px;
+        height: 100%;
+    }
+    .titulo1{
+        font-size: 5px;
+        left: 0%;
+        position: absolute;
+        top: 7cm;
     }
     .parrafo2{
         left: 25%;
@@ -400,7 +416,7 @@ textarea{
         display: none;
     }
     .foto1{
-        top: 50cm;
+        top: 34cm;
         position: absolute;
         left: 6%;
         width: 300px;
@@ -418,15 +434,15 @@ textarea{
         
     }
     .foto2{
-        top: 48cm;
+        top: 32cm;
         position: absolute;
         left: 6%;
-        width: 300px;
+        width: 50%;
         height: 400px;
 
     }
     .caja4{
-        margin-top: 1450px;
+        margin-top: 1440px;
         position: absolute;
         display: flex;
         flex-direction: column;
@@ -436,10 +452,11 @@ textarea{
         height: 40%;
         left: 10%;
         text-align: justify;
+        font-size: 10px
         
     }
     .foto3{
-        top: 57cm;
+        top: 41cm;
         position: absolute;
         left: 6%;
         width: 300px;
@@ -457,12 +474,13 @@ textarea{
         height: 50%;
         left: 8%;
         text-align: justify;
+        font-size: 12px;
         
     }
     form{
-        top: 65cm;
+        top: 40cm;
         position: absolute;
-        width: auto;
+        width: 40%;
         
 
     }
