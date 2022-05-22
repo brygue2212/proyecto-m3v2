@@ -309,19 +309,50 @@ textarea{
     }
     .caja3{
         position: absolute;
-        top: 0%;
+        width: 100%;
+        height: 100%;
+        top: 170%;
     }
     .titulo3{
-        font-size: 50px;
+        font-size: 8px;
         position: absolute;
         top: 200%;
+        text-align: center;
     }
     .foto2{
         position: absolute;
         width: 100%;
         height: 100%;
-        top: 300%;
+        top: 250%;
+        left: 20%;
     }
+    .caja4{
+        width: 100%;
+        height: 100%;
+        left: 20%;
+        top: 250%;
+    }
+    .foto3{
+        width: 100%;
+        height: 100%;
+        top: 48cm;
+    }
+    .caja5{
+        width: 100%;
+        height: 100%;
+        font-size: 8px;
+        text-align: justify;
+        top: 48cm;
+        left: 10%;
+    }
+    .formulario{
+        width: 20%;
+        height: 100%;
+        position: absolute;
+        top: 48cm;
+        color: transparent;
+    }
+
 }
 
 
