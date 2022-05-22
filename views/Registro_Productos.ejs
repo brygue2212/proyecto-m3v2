@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css-js/css/registro_producto.css">
+  <title>Formulario Registro</title>
+</head>
+<body>
+  <img src="../views/imagenes/Registro/logo1.png" class="logo1">
+  <section class="form-register">
+    <h4>Formulario Registro</h4>
+    <form  method="POST" action="/RProductos">
+      <input class="controls" type="number" name="codigo_producto" id="codigo_producto" placeholder="codigo_producto">
+      <input class="controls" type="text" name="nombre_producto" id="nombre_producto" placeholder="Ingrese nombre producto">
+      <input class="controls" type="text" name="tipo_produto" id="tipo_produto" placeholder="Tipo de producto">
+      <input class="controls" type="number" name="cantidad_produto" id="cantidad_produto" placeholder="cantidad del producto">
+      <section class="form-control" >
+        <select class="meses mt-3" id="Tiempo">
+          <option name="Tiempo">a cuantos meses</option>
+          <option name="1 mes">1 meses</option>
+          <option name="3 meses">3 meses</option>
+          <option name="6 meses"> 6 meses</option>
+          <option name="12 meses">12 meses</option>
+        </select>
+      </section>
+      <br>
+      <section class="form-control">
+        <select class="pagos" name="mone_pro" id="pagos">
+          <option name="mone_pro">forma de pagos</option>
+          <option name="Bolivares">Bolivares</option>
+          <option name="Dolares">Dolares</option> 
+          <option name="Euros">Euros</option>
+          <option name="Pesos">Pesos</option>
+          <option name="Bitcoin">Bitcoin</option>
+        </select>
+      </section>
+      <input class="botons" type="submit" value="Registrar">
+    </form>
+    <p><a href="/admin">CANCELAR</a></p>
+  </section>
+
+</body>
+<script src=""></script>
+<script src=""></script>
+</html>

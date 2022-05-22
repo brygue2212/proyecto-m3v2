@@ -1,0 +1,45 @@
+body{ 
+    margin: 0;
+    display: grid;
+    grid-template-columns: (4.1fr);
+    grid-template-rows: (4.1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+    .caja{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+    }
+    .fondo{
+        width: 100%;
+        height: 100%;
+        grid-column: 1;
+        grid-row: 1;
+        z-index: 0;
+    }
+    .imag1{
+        width: 300px;
+        height: 200px;
+        position: relative;
+    }
+    h1{ 
+        text-align: center;
+        color: gold;
+    }
+    a{ 
+        color: black;
+    }
+    .fondo{
+        width: 100%;
+        height: 100%;
+    }
+     .imag1{
+        opacity: .7;
+    }
+    button{
+        opacity: .7;
+    }
