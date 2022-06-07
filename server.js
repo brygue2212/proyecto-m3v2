@@ -42,9 +42,6 @@ app.get("/RProductos", function(req,res){
   res.render("Registro_Productos")
 })
 
-app.get("/Productos", function(req,res){
-  res.render("productos")
-})
 
 
 app.listen(port, () => {
