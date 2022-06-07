@@ -41,6 +41,10 @@ app.get("/admin", function(req,res){
 app.get("/RProductos", function(req,res){
   res.render("Registro_Productos")
 })
+app.get("/productos", function(req,res){
+  res.render("productos")
+})
+
 
 
 
