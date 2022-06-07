@@ -30,14 +30,17 @@
               <div class="navbar-collapse collapse" id="navbarContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                      <a class="nav-link btn btn-outline-primary" role="button" data-bs-toggle="button" href="../inicio de seccion.ejs">INICIO</a>
-                    </li>
+                      <a class="nav-link btn btn-outline-primary" role="button" data-bs-toggle="button" href="/iniciar">INICIO</a>
+                     
+                      <li class="nav-item">
+                        <a class="nav-link btn btn-outline-primary" role="button" data-bs-toggle="button" href="/admin">Admin</a>
+                      </li>
+
                     <li class="nav-item">
-                      <a class="nav-link btn btn-outline-primary" role="button" data-bs-toggle="button" href="../views/Registro.ejs">REGISTRAR</a>
+                      <a class="nav-link btn btn-outline-primary" role="button" data-bs-toggle="button" href="/productos">PRODUCTOS</a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link btn btn-outline-primary" role="button" data-bs-toggle="button" href="../productos.html">PRODUCTOS</a>
-                    </li>
+
+                  </li>
                 </ul>
               </div>   
             </div>
@@ -140,16 +143,16 @@
       </div>
     </section>
     <section  class="formulario" >
-      <form action="">
+      <form  method="post" action="/contacto">
         <h2  class="titulo3">Contacto</h2>
         <input type="text" name="nombre" placeholder="nombre completo">
         <input type="text" name="correo" placeholder="correo electronico">
         <input type="number" name="numero" placeholder="numero de telefono">
         <textarea name="mensaje" placeholder="escriba su mensaje"></textarea>
-        <input type="button" class="boton" value="enviar">
+        <input type="submit" class="boton" value="enviar">
       </form>
        
     </section>
   </body>
-  <h1>hpña</h1>
+
 </html>

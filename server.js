@@ -42,6 +42,10 @@ app.get("/RProductos", function(req,res){
   res.render("Registro_Productos")
 })
 
+app.get("/Productos", function(req,res){
+  res.render("productos")
+})
+
 
 app.listen(port, () => {
   conn.connect(function(err){
@@ -85,6 +89,7 @@ app.post("/RProductos", function(req,res){
       res.redirect("/admin")
   })
 })
+
 
 app.post("/validar", async function(req, res){
   const { usuario,clave } = req.body

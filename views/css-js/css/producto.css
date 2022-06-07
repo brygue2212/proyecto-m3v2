@@ -1,6 +1,7 @@
 body{
     margin-left: 5%;
     margin-right: 5%;
+    width: auto;
 }
 .table1 td, th, .th1{
     border: 3px solid black;
@@ -25,4 +26,71 @@ img{
 .meta{
     width: 200px;
     height: 200px;
+}
+@media screen and (max-width: 500px) {
+    body{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .table1 td, th, .th1{
+        border: 7px solid black;
+        background-image: linear-gradient(180deg, #9fb7f5 0, #6c90d8 50%, #2c6bbb 100%);
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        height: 100vh;
+        width: 100vh;
+    }
+    img{
+        margin-left: 35%;
+        width: 50px;
+        height: 50px;
+        margin-bottom: 3%;
+    
+    }
+    .volver{
+        margin-left: 93%;
+    }
+    .facebook, .instagram,.Oculus{
+        margin-left: 2%;
+        
+    }
+    .meta{
+        width: 200px;
+        height: 200px;
+    }
+    
+}
+@media screen and (max-width: 720px) and (min-width:500){
+    body{
+        margin-left: 10%;
+        margin-right: 10%;
+        width: auto;
+        height: auto;
+    }
+    .table1 td, th, .th1{
+        border: 7px solid black;
+        background-image: linear-gradient(180deg, #9fb7f5 0, #6c90d8 50%, #2c6bbb 100%);
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        height: 100vh;
+        width: 100vh;
+    }
+    img{
+        margin-left: 35%;
+        width: 50px;
+        height: 50px;
+        margin-bottom: 3%;
+    
+    }
+    .volver{
+        margin-left: 93%;
+    }
+    .facebook, .instagram,.Oculus{
+        margin-left: 2%;
+        
+    }
+    .meta{
+        width: 200px;
+        height: 200px;
+    }
 }
